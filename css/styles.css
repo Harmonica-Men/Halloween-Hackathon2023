@@ -1,0 +1,209 @@
+:root {
+    --main-bg-color: #1F2833; /* Dark Blue */
+    --main-text-color: #F4A261; /* Orange */
+    --secondary-text-color: #E07A5F; /* Dark Red */
+    --accent-color: #FE5F55; /* Light Red */
+    --border-color: #F4A261; /* Orange */
+  }
+  
+  body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: var(--main-text-color);
+  }
+  
+  h1 {
+    color: var(--accent-color);
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Merriweather', cursive;
+  }
+  
+  h2 {
+    color: var(--accent-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-text-color);
+  }
+  
+  p {
+    line-height: 2.8;
+  }
+  
+  hr {
+    margin: 100px auto 100px auto;
+    border: dotted var(--secondary-text-color) 6px;
+    border-bottom: none;
+    width: 25%;
+  }
+  
+  a {
+    color: var(--main-text-color);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--secondary-text-color);
+  }
+  
+  .halloween  {
+    color: red;
+  }
+
+  .profile-halloween
+  {
+    color: var(--accent-color);
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .bat-row {
+    width: 33%;
+    margin: 150px auto 150px auto;
+    text-align: left;
+  }
+  
+  .castle-row {
+    width: 33%;
+    margin: 150px auto 150px auto;
+    text-align: right;
+  }
+
+  .spiderweb-row {
+    width: 33%;
+    margin: 150px auto 150px auto;
+    text-align: left;
+  }
+  
+  .bat-img {
+    margin-right: 30px;
+    width: 25%;
+    float: left;
+  }
+  
+  .castle-img {
+    margin-left: 30px;
+    width: 25%;
+    float: right;
+  }
+
+  .spiderweb-img {
+    margin-right: 30px;
+    width: 25%;
+    float: left;
+  }
+  
+  .party-img {
+    width: 25%;
+  }
+  
+  .p-color {
+    font-family: 'Merriweather', sans-serif;
+    color: var(--main-text-color);
+  }
+  
+  .intro {
+    margin: auto;
+    color: var(--main-text-color);
+  }
+  
+  .p-bat {
+    color: var(--main-text-color);
+    clear: left;
+  }
+  
+  .p-castle {
+    color: var(--main-text-color);
+    clear: right;
+  }
+
+  .p-spiderweb {
+    color: var(--main-text-color);
+    clear: left;
+  }
+        
+  .top-pumpkin {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+    width: 12%;
+  }
+  
+  .top-ghost {
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    width: 15%;
+  }
+  
+  .bloodline-img {
+    left: 300px;
+    bottom: 300px;
+    width: 45%;
+  }
+  
+  .register-msg {
+    margin: 40px auto 60px auto;
+  }
+  
+  .copyright {
+    color: var(--secondary-text-color);
+    font-size: 0.75rem;
+    padding: 10px 0;
+  }
+  
+  .btn {
+    background: var(--accent-color);
+    background-image: -webkit-linear-gradient(top, var(--accent-color), var(--secondary-text-color));
+    background-image: -moz-linear-gradient(top, var(--accent-color), var(--secondary-text-color));
+    background-image: -ms-linear-gradient(top, var(--accent-color), var(--secondary-text-color));
+    background-image: -o-linear-gradient(top, var(--accent-color), var(--secondary-text-color));
+    background-image: linear-gradient(to bottom, var(--accent-color), var(--secondary-text-color));
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: "Arial";
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    position: relative;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  
+  .top-container {
+    background-color: var(--main-bg-color);
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .middle-container {
+    background-color: rgb(255, 255, 255);
+    margin: 100px 0;
+  }
+  
+  .bottom-container {
+    background-color: var(--main-bg-color);
+    padding: 10px 0 20px;
+  }
+  
